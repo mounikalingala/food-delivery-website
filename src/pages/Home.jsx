@@ -1,6 +1,6 @@
 import React, { useContext, useState } from 'react'
 import Nav from '../components/Nav'
-import Categories from '../category'
+import Categories from '../Category.jsx'
 import Card from '../components/Card'
 import { food_items } from '../Food'
 import { dataContext } from '../App'
