@@ -1,6 +1,6 @@
 import { createContext, useState } from 'react'
 import Home from './pages/Home'
-
+import { ToastContainer } from "react-toastify";
 import './App.css'
 import { food_items } from './Food'
 
@@ -22,6 +22,7 @@ function App() {
     <div>
       <dataContext.Provider value={data}>
         <Home />
+        <ToastContainer />
       </dataContext.Provider>
     </div>
   )
